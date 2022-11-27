@@ -6,6 +6,8 @@ wget https://www.litespeedtech.com/packages/lsapi/wsgi-lsapi-2.1.tgz
 
 tar -xvf wsgi-lsapi-2.1.tgz
 
+rm -rf wsgi-lsapi-2.1.tgz
+
 cd wsgi-lsapi-2.1
 
 python3 ./configure.py
